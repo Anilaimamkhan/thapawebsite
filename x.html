@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test 3</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&family=Nunito+Sans:wght@600;900&family=Nunito:ital,wght@0,300;1,600&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="" id="tops"></a>
+    <?php
+    include "index.php";
+    ?>
+    <header class="header">
+        <!-- <div class="logo"> -->
+        <h1>anila</h1>
+        <!-- </div> -->
+        <nav>
+            <ul>
+                <li><a href="index.php" class="active">home</a></li>
+                <li><a href="about.php">about+</a>
+                    <ul>
+                        <li><a href="about.php">about</a></li>
+                        <li><a href="pricing.php">pricing</a>
+                            <ul>
+                                <li><a href="services.php">services</a></li>
+                                <li><a href="contact.php">contact</a></li>
+
+                        </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+
+
+            </li>
+            <li><a href="pricing.php">pricing</a></li>
+            <li><a href="services.php">services</a></li>
+            <li><a href="contact.php">contact</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="menu-btn">
+            <ion-icon name="menu" class="icon-btn"></ion-icon>
+            <ion-icon name="close" class="icon-btn"></ion-icon>
+
+        </div>
+    </header>
